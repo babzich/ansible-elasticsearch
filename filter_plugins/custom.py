@@ -2,7 +2,7 @@ __author__ = "dale mcdiarmid"
 
 import re
 import os.path
-from six import string_types
+from ansible.module_utils.six import string_types
 
 
 def modify_list(values=[], pattern="", replacement="", ignorecase=False):
